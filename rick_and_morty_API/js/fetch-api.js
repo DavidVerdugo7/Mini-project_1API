@@ -27,7 +27,7 @@ async function getCharacters({ name, species, gender, status, page = 1 }) {
   //   console.log(character.results);
   return characters.results;
 }
-// charecters in cards format
+// charecters in cards format DOM
 async function render({ characters }) {
   characters.forEach((character) => {
     const locationName = character.location.name;
